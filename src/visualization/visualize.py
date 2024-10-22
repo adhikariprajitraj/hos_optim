@@ -41,4 +41,4 @@ def create_map(hospitals, allocations, unmet_demand):
         ).add_to(map)
 
     # Save the map
-    map.save('results/hospital_density_map.html')
+    map.save('results/index.html')
