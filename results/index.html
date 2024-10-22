@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bdb970ceb74ea1fd599c14ba7cd413d4 {
+                #map_7839807c189270e553749262a156c8cd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,14 +40,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_bdb970ceb74ea1fd599c14ba7cd413d4" ></div>
+            <div class="folium-map" id="map_7839807c189270e553749262a156c8cd" ></div>
         
 </body>
 <script>
     
     
-            var map_bdb970ceb74ea1fd599c14ba7cd413d4 = L.map(
-                "map_bdb970ceb74ea1fd599c14ba7cd413d4",
+            var map_7839807c189270e553749262a156c8cd = L.map(
+                "map_7839807c189270e553749262a156c8cd",
                 {
                     center: [27.7172, 85.324],
                     crs: L.CRS.EPSG3857,
@@ -61,75 +61,75 @@
 
         
     
-            var tile_layer_57b61426ecd3007d80f3c6afca23bfed = L.tileLayer(
+            var tile_layer_a9a501d049036bf417ef3c9682c4e0e6 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_57b61426ecd3007d80f3c6afca23bfed.addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            tile_layer_a9a501d049036bf417ef3c9682c4e0e6.addTo(map_7839807c189270e553749262a156c8cd);
         
     
-            var heat_map_f80fbf91f99de24f4829e5b39fc62480 = L.heatLayer(
-                [[27.7047, 85.3097, 580.0], [27.7056, 85.3127, 380.0], [27.7005, 85.3384, 470.0], [27.6771, 85.3016, 290.0], [27.7262, 85.3334, 450.0], [27.739, 85.3423, 690.0]],
+            var heat_map_9e85a93cb8c50134d37eb3feac1f9293 = L.heatLayer(
+                [[27.7047, 85.3097, 380.0], [27.7056, 85.3127, 380.0], [27.7005, 85.3384, 390.0], [27.6771, 85.3016, 290.0], [27.7262, 85.3334, 429.0], [27.739, 85.3423, 420.0]],
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.4, "radius": 20}
             );
         
     
-            heat_map_f80fbf91f99de24f4829e5b39fc62480.addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            heat_map_9e85a93cb8c50134d37eb3feac1f9293.addTo(map_7839807c189270e553749262a156c8cd);
         
     
-            var circle_marker_e8dae31c9a9646d28487dd78aa9f3929 = L.circleMarker(
+            var circle_marker_8bcef68171ddbee24d64323e7c3c465f = L.circleMarker(
                 [27.7047, 85.3097],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_6bd841e7ff996608f54b39732019c1a3 = L.popup({"maxWidth": "100%"});
+        var popup_1b44e5e38fd452034ddfa367ca8be5d5 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f8b44f5a162db16aeb19c180d63e29ee = $(`<div id="html_f8b44f5a162db16aeb19c180d63e29ee" style="width: 100.0%; height: 100.0%;"><b>Bir Hospital</b><br>Location: Kanti Path, Kathmandu<br>Total Resources: 580.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 150.0 / 150<br>Nurses Allocated: 300.0 / 300<br>Ventilators Allocated: 50.0 / 50<br>Monitors Allocated: 80.0 / 80</div>`)[0];
-                popup_6bd841e7ff996608f54b39732019c1a3.setContent(html_f8b44f5a162db16aeb19c180d63e29ee);
+                var html_50068d20782e2d5f9ea007cd505a7a51 = $(`<div id="html_50068d20782e2d5f9ea007cd505a7a51" style="width: 100.0%; height: 100.0%;"><b>Bir Hospital</b><br>Location: Kanti Path, Kathmandu<br>Total Resources: 380.0<br>Unmet Demand: 200.0<br>Doctors Allocated: 0.0 / 150<br>Nurses Allocated: 300.0 / 300<br>Ventilators Allocated: 0.0 / 50<br>Monitors Allocated: 80.0 / 80</div>`)[0];
+                popup_1b44e5e38fd452034ddfa367ca8be5d5.setContent(html_50068d20782e2d5f9ea007cd505a7a51);
             
         
 
-        circle_marker_e8dae31c9a9646d28487dd78aa9f3929.bindPopup(popup_6bd841e7ff996608f54b39732019c1a3)
+        circle_marker_8bcef68171ddbee24d64323e7c3c465f.bindPopup(popup_1b44e5e38fd452034ddfa367ca8be5d5)
         ;
 
         
     
     
-            circle_marker_e8dae31c9a9646d28487dd78aa9f3929.bindTooltip(
+            circle_marker_8bcef68171ddbee24d64323e7c3c465f.bindTooltip(
                 `<div>
-                     Bir Hospital: 580.0 resources
+                     Bir Hospital: 380.0 resources
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_287d7c885771155a32dbee265a180f55 = L.circleMarker(
+            var circle_marker_0f71116ccf4d1bf84618e38e7370ab7d = L.circleMarker(
                 [27.7056, 85.3127],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_ea8dc1ab839f223a5c9fc42c9dc81344 = L.popup({"maxWidth": "100%"});
+        var popup_c9fc1e097c805e0272f65d96e360aa0b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_6673ff63ab21d4ba207d35bc4acb3095 = $(`<div id="html_6673ff63ab21d4ba207d35bc4acb3095" style="width: 100.0%; height: 100.0%;"><b>Kathmandu Valley Hospital</b><br>Location: Bagh darbar marg, Kathmandu<br>Total Resources: 380.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 100.0 / 100<br>Nurses Allocated: 200.0 / 200<br>Ventilators Allocated: 30.0 / 30<br>Monitors Allocated: 50.0 / 50</div>`)[0];
-                popup_ea8dc1ab839f223a5c9fc42c9dc81344.setContent(html_6673ff63ab21d4ba207d35bc4acb3095);
+                var html_5233d1c54456e4d24d96429f84f53920 = $(`<div id="html_5233d1c54456e4d24d96429f84f53920" style="width: 100.0%; height: 100.0%;"><b>Kathmandu Valley Hospital</b><br>Location: Bagh darbar marg, Kathmandu<br>Total Resources: 380.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 100.0 / 100<br>Nurses Allocated: 200.0 / 200<br>Ventilators Allocated: 30.0 / 30<br>Monitors Allocated: 50.0 / 50</div>`)[0];
+                popup_c9fc1e097c805e0272f65d96e360aa0b.setContent(html_5233d1c54456e4d24d96429f84f53920);
             
         
 
-        circle_marker_287d7c885771155a32dbee265a180f55.bindPopup(popup_ea8dc1ab839f223a5c9fc42c9dc81344)
+        circle_marker_0f71116ccf4d1bf84618e38e7370ab7d.bindPopup(popup_c9fc1e097c805e0272f65d96e360aa0b)
         ;
 
         
     
     
-            circle_marker_287d7c885771155a32dbee265a180f55.bindTooltip(
+            circle_marker_0f71116ccf4d1bf84618e38e7370ab7d.bindTooltip(
                 `<div>
                      Kathmandu Valley Hospital: 380.0 resources
                  </div>`,
@@ -137,57 +137,57 @@
             );
         
     
-            var circle_marker_edab513cbbff6b27a12f790ecfbe37d8 = L.circleMarker(
+            var circle_marker_64c1ccd66dd3a0bcd06d0b9255ec840c = L.circleMarker(
                 [27.7005, 85.3384],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_04ea63a9671b7f432ddda62b0ced97a5 = L.popup({"maxWidth": "100%"});
+        var popup_ab1b2cd55e1c29b04e952ff2aac924f8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fc24f8acd8122b99afbec384f91ff74d = $(`<div id="html_fc24f8acd8122b99afbec384f91ff74d" style="width: 100.0%; height: 100.0%;"><b>Civil Service Hospital of Nepal</b><br>Location: Minbhawan marg, Kathmandu<br>Total Resources: 470.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 120.0 / 120<br>Nurses Allocated: 250.0 / 250<br>Ventilators Allocated: 40.0 / 40<br>Monitors Allocated: 60.0 / 60</div>`)[0];
-                popup_04ea63a9671b7f432ddda62b0ced97a5.setContent(html_fc24f8acd8122b99afbec384f91ff74d);
+                var html_8f955c38427c5c10d464ddda9634f768 = $(`<div id="html_8f955c38427c5c10d464ddda9634f768" style="width: 100.0%; height: 100.0%;"><b>Civil Service Hospital of Nepal</b><br>Location: Minbhawan marg, Kathmandu<br>Total Resources: 390.0<br>Unmet Demand: 80.0<br>Doctors Allocated: 80.0 / 120<br>Nurses Allocated: 250.0 / 250<br>Ventilators Allocated: 0.0 / 40<br>Monitors Allocated: 60.0 / 60</div>`)[0];
+                popup_ab1b2cd55e1c29b04e952ff2aac924f8.setContent(html_8f955c38427c5c10d464ddda9634f768);
             
         
 
-        circle_marker_edab513cbbff6b27a12f790ecfbe37d8.bindPopup(popup_04ea63a9671b7f432ddda62b0ced97a5)
+        circle_marker_64c1ccd66dd3a0bcd06d0b9255ec840c.bindPopup(popup_ab1b2cd55e1c29b04e952ff2aac924f8)
         ;
 
         
     
     
-            circle_marker_edab513cbbff6b27a12f790ecfbe37d8.bindTooltip(
+            circle_marker_64c1ccd66dd3a0bcd06d0b9255ec840c.bindTooltip(
                 `<div>
-                     Civil Service Hospital of Nepal: 470.0 resources
+                     Civil Service Hospital of Nepal: 390.0 resources
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_d2d1b9b8589406299eae3a5d7085e438 = L.circleMarker(
+            var circle_marker_428c4cd8335e2852e78349c1b82fec80 = L.circleMarker(
                 [27.6771, 85.3016],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_62b2324676d6e015ad1776ac42888f96 = L.popup({"maxWidth": "100%"});
+        var popup_c62ce6d5e6474853a61c79360392b10f = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_8c0e3f330ddefdbbe223757491ee2c54 = $(`<div id="html_8c0e3f330ddefdbbe223757491ee2c54" style="width: 100.0%; height: 100.0%;"><b>Vayodha Hospital</b><br>Location: Balkhu, Kathmandu<br>Total Resources: 290.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 80.0 / 80<br>Nurses Allocated: 150.0 / 150<br>Ventilators Allocated: 20.0 / 20<br>Monitors Allocated: 40.0 / 40</div>`)[0];
-                popup_62b2324676d6e015ad1776ac42888f96.setContent(html_8c0e3f330ddefdbbe223757491ee2c54);
+                var html_4d53c589c11b8fae5067a095515e1be6 = $(`<div id="html_4d53c589c11b8fae5067a095515e1be6" style="width: 100.0%; height: 100.0%;"><b>Vayodha Hospital</b><br>Location: Balkhu, Kathmandu<br>Total Resources: 290.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 80.0 / 80<br>Nurses Allocated: 150.0 / 150<br>Ventilators Allocated: 20.0 / 20<br>Monitors Allocated: 40.0 / 40</div>`)[0];
+                popup_c62ce6d5e6474853a61c79360392b10f.setContent(html_4d53c589c11b8fae5067a095515e1be6);
             
         
 
-        circle_marker_d2d1b9b8589406299eae3a5d7085e438.bindPopup(popup_62b2324676d6e015ad1776ac42888f96)
+        circle_marker_428c4cd8335e2852e78349c1b82fec80.bindPopup(popup_c62ce6d5e6474853a61c79360392b10f)
         ;
 
         
     
     
-            circle_marker_d2d1b9b8589406299eae3a5d7085e438.bindTooltip(
+            circle_marker_428c4cd8335e2852e78349c1b82fec80.bindTooltip(
                 `<div>
                      Vayodha Hospital: 290.0 resources
                  </div>`,
@@ -195,59 +195,59 @@
             );
         
     
-            var circle_marker_4e5e49f574f43a21dad1807beb3bd7d4 = L.circleMarker(
+            var circle_marker_10a126b771e86462f92a0623e589c6bf = L.circleMarker(
                 [27.7262, 85.3334],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_f910d9de2290a4ea45b984152b52fb8f = L.popup({"maxWidth": "100%"});
+        var popup_c7048cd16cdca2a1413f01ce997a8bba = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fba8e1499ff831f7ef75858e0ac9c914 = $(`<div id="html_fba8e1499ff831f7ef75858e0ac9c914" style="width: 100.0%; height: 100.0%;"><b>Grande City Hospital</b><br>Location: Kanti path, Kathmandu<br>Total Resources: 450.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 120.0 / 120<br>Nurses Allocated: 220.0 / 220<br>Ventilators Allocated: 40.0 / 40<br>Monitors Allocated: 70.0 / 70</div>`)[0];
-                popup_f910d9de2290a4ea45b984152b52fb8f.setContent(html_fba8e1499ff831f7ef75858e0ac9c914);
+                var html_9f18327fdd891d824873316fdce42121 = $(`<div id="html_9f18327fdd891d824873316fdce42121" style="width: 100.0%; height: 100.0%;"><b>Grande City Hospital</b><br>Location: Kanti path, Kathmandu<br>Total Resources: 429.0<br>Unmet Demand: 21.0<br>Doctors Allocated: 120.0 / 120<br>Nurses Allocated: 220.0 / 220<br>Ventilators Allocated: 19.0 / 40<br>Monitors Allocated: 70.0 / 70</div>`)[0];
+                popup_c7048cd16cdca2a1413f01ce997a8bba.setContent(html_9f18327fdd891d824873316fdce42121);
             
         
 
-        circle_marker_4e5e49f574f43a21dad1807beb3bd7d4.bindPopup(popup_f910d9de2290a4ea45b984152b52fb8f)
+        circle_marker_10a126b771e86462f92a0623e589c6bf.bindPopup(popup_c7048cd16cdca2a1413f01ce997a8bba)
         ;
 
         
     
     
-            circle_marker_4e5e49f574f43a21dad1807beb3bd7d4.bindTooltip(
+            circle_marker_10a126b771e86462f92a0623e589c6bf.bindTooltip(
                 `<div>
-                     Grande City Hospital: 450.0 resources
+                     Grande City Hospital: 429.0 resources
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var circle_marker_3ad7b37be1ef9e9682fe9405c6f0ae07 = L.circleMarker(
+            var circle_marker_0432f8e1c702a669f943e9578591f82e = L.circleMarker(
                 [27.739, 85.3423],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
-            ).addTo(map_bdb970ceb74ea1fd599c14ba7cd413d4);
+            ).addTo(map_7839807c189270e553749262a156c8cd);
         
     
-        var popup_5ee22a42710d11712e3e88e5b417cb43 = L.popup({"maxWidth": "100%"});
+        var popup_1e1512c96f49465e1bc925413e7063db = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c8301252b47902327a20d981f97dc249 = $(`<div id="html_c8301252b47902327a20d981f97dc249" style="width: 100.0%; height: 100.0%;"><b>Teaching Hospital</b><br>Location: Maharajgunj, Kathmandu<br>Total Resources: 690.0<br>Unmet Demand: 0.0<br>Doctors Allocated: 180.0 / 180<br>Nurses Allocated: 350.0 / 350<br>Ventilators Allocated: 60.0 / 60<br>Monitors Allocated: 100.0 / 100</div>`)[0];
-                popup_5ee22a42710d11712e3e88e5b417cb43.setContent(html_c8301252b47902327a20d981f97dc249);
+                var html_64b60675fbf263db66e1b8a9749d0135 = $(`<div id="html_64b60675fbf263db66e1b8a9749d0135" style="width: 100.0%; height: 100.0%;"><b>Teaching Hospital</b><br>Location: Maharajgunj, Kathmandu<br>Total Resources: 420.0<br>Unmet Demand: 270.0<br>Doctors Allocated: 180.0 / 180<br>Nurses Allocated: 80.0 / 350<br>Ventilators Allocated: 60.0 / 60<br>Monitors Allocated: 100.0 / 100</div>`)[0];
+                popup_1e1512c96f49465e1bc925413e7063db.setContent(html_64b60675fbf263db66e1b8a9749d0135);
             
         
 
-        circle_marker_3ad7b37be1ef9e9682fe9405c6f0ae07.bindPopup(popup_5ee22a42710d11712e3e88e5b417cb43)
+        circle_marker_0432f8e1c702a669f943e9578591f82e.bindPopup(popup_1e1512c96f49465e1bc925413e7063db)
         ;
 
         
     
     
-            circle_marker_3ad7b37be1ef9e9682fe9405c6f0ae07.bindTooltip(
+            circle_marker_0432f8e1c702a669f943e9578591f82e.bindTooltip(
                 `<div>
-                     Teaching Hospital: 690.0 resources
+                     Teaching Hospital: 420.0 resources
                  </div>`,
                 {"sticky": true}
             );
