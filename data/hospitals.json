@@ -6,10 +6,10 @@
         "phone": "01-4221988/ 01-4221119",
         "type": "Public",
         "demand": {
-            "doctors": 15,
-            "nurses": 30,
-            "ventilators": 5,
-            "monitors": 8
+            "doctors": 150,
+            "nurses": 300,
+            "ventilators": 50,
+            "monitors": 80
         }
     },
     "Kathmandu Valley Hospital": {
@@ -19,10 +19,10 @@
         "phone": "01-4255330",
         "type": "Private",
         "demand": {
-            "doctors": 10,
-            "nurses": 20,
-            "ventilators": 3,
-            "monitors": 5
+            "doctors": 100,
+            "nurses": 200,
+            "ventilators": 30,
+            "monitors": 50
         }
     },
     "Civil Service Hospital of Nepal": {
@@ -32,10 +32,10 @@
         "phone": "01-4793000",
         "type": "Public",
         "demand": {
-            "doctors": 12,
-            "nurses": 25,
-            "ventilators": 4,
-            "monitors": 6
+            "doctors": 120,
+            "nurses": 250,
+            "ventilators": 40,
+            "monitors": 60
         }
     },
     "Vayodha Hospital": {
@@ -45,10 +45,10 @@
         "phone": "01-4281666, 01-4288404",
         "type": "Private",
         "demand": {
-            "doctors": 8,
-            "nurses": 15,
-            "ventilators": 2,
-            "monitors": 4
+            "doctors": 80,
+            "nurses": 150,
+            "ventilators": 20,
+            "monitors": 40
         }
     },
     "Grande City Hospital": {
@@ -58,10 +58,10 @@
         "phone": "01-4163500",
         "type": "Private",
         "demand": {
-            "doctors": 12,
-            "nurses": 22,
-            "ventilators": 4,
-            "monitors": 7
+            "doctors": 120,
+            "nurses": 220,
+            "ventilators": 40,
+            "monitors": 70
         }
     },
     "Teaching Hospital": {
@@ -71,10 +71,10 @@
         "phone": "01-4412303",
         "type": "Public",
         "demand": {
-            "doctors": 18,
-            "nurses": 35,
-            "ventilators": 6,
-            "monitors": 10
+            "doctors": 180,
+            "nurses": 350,
+            "ventilators": 60,
+            "monitors": 100
         }
     }
 }
