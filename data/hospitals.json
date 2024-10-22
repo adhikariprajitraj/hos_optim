@@ -1,0 +1,32 @@
+{
+    "Bir Hospital": {
+        "location": "Kanti Path, Kathmandu",
+        "phone": "01-4221988/ 01-4221119",
+        "type": "Public"
+    },
+    "Kathmandu Valley Hospital": {
+        "location": "Bagh darbar marg, Kathmandu",
+        "phone": "01-4255330",
+        "type": "Private"
+    },
+    "Civil Service Hospital of Nepal": {
+        "location": "Minbhawan marg, Kathmandu",
+        "phone": "01-4793000",
+        "type": "Public"
+    },
+    "Vayodha Hospital": {
+        "location": "Balkhu, Kathmandu",
+        "phone": "01-4281666, 01-4288404",
+        "type": "Private"
+    },
+    "Grande City Hospital": {
+        "location": "Kanti path, Kathmandu",
+        "phone": "01-4163500",
+        "type": "Private"
+    },
+    "Teaching Hospital": {
+        "location": "Maharajgunj, Kathmandu",
+        "phone": "01-4412303",
+        "type": "Public"
+    }
+}

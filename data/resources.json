@@ -1,0 +1,7 @@
+{
+    "doctors": 150,
+    "nurses": 300,
+    "ventilators": 75,
+    "monitors": 90,
+    "ultrasound_machines": 40
+}

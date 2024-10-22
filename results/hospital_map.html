@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b07b2c52a11a7f94f1e7197a3a2e628 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6b07b2c52a11a7f94f1e7197a3a2e628" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6b07b2c52a11a7f94f1e7197a3a2e628 = L.map(
+                "map_6b07b2c52a11a7f94f1e7197a3a2e628",
+                {
+                    center: [27.7172, 85.324],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_69970c4d713cd9303bb8e0c80f67577c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_69970c4d713cd9303bb8e0c80f67577c.addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+            var circle_marker_6a6ee33177307b66f648c2eb43e78a5a = L.circleMarker(
+                [27.7047, 85.3097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_1ec3c1eb2e11b535891e4a6154c6412c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797ff87561e9888e8af8acee7606c2bb = $(`<div id="html_797ff87561e9888e8af8acee7606c2bb" style="width: 100.0%; height: 100.0%;">Bir Hospital<br>Location: Kanti Path, Kathmandu<br>Total Resources: 10.0<br>Doctors: 0.0<br>Nurses: 0.0<br>Ventilators: 0.0<br>Monitors: 10.0</div>`)[0];
+                popup_1ec3c1eb2e11b535891e4a6154c6412c.setContent(html_797ff87561e9888e8af8acee7606c2bb);
+            
+        
+
+        circle_marker_6a6ee33177307b66f648c2eb43e78a5a.bindPopup(popup_1ec3c1eb2e11b535891e4a6154c6412c)
+        ;
+
+        
+    
+    
+            circle_marker_6a6ee33177307b66f648c2eb43e78a5a.bindTooltip(
+                `<div>
+                     Bir Hospital: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd71f7039700411fee25307f95f03003 = L.circleMarker(
+                [27.7056, 85.3127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_42cc6ac090bbf4c06e074b1bd44350e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42df1ef7591cb8a7d01a85874ad5b531 = $(`<div id="html_42df1ef7591cb8a7d01a85874ad5b531" style="width: 100.0%; height: 100.0%;">Kathmandu Valley Hospital<br>Location: Bagh darbar marg, Kathmandu<br>Total Resources: 10.0<br>Doctors: 0.0<br>Nurses: 0.0<br>Ventilators: 0.0<br>Monitors: 10.0</div>`)[0];
+                popup_42cc6ac090bbf4c06e074b1bd44350e7.setContent(html_42df1ef7591cb8a7d01a85874ad5b531);
+            
+        
+
+        circle_marker_bd71f7039700411fee25307f95f03003.bindPopup(popup_42cc6ac090bbf4c06e074b1bd44350e7)
+        ;
+
+        
+    
+    
+            circle_marker_bd71f7039700411fee25307f95f03003.bindTooltip(
+                `<div>
+                     Kathmandu Valley Hospital: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6f763b9811878117d30161284f1b9b39 = L.circleMarker(
+                [27.7005, 85.3384],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_1c81a2195abb81b4a9c53889109d89c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bbc796f5ac3e6ec77a8f574aaaf03f3 = $(`<div id="html_0bbc796f5ac3e6ec77a8f574aaaf03f3" style="width: 100.0%; height: 100.0%;">Civil Service Hospital of Nepal<br>Location: Minbhawan marg, Kathmandu<br>Total Resources: 10.0<br>Doctors: 0.0<br>Nurses: 0.0<br>Ventilators: 0.0<br>Monitors: 10.0</div>`)[0];
+                popup_1c81a2195abb81b4a9c53889109d89c6.setContent(html_0bbc796f5ac3e6ec77a8f574aaaf03f3);
+            
+        
+
+        circle_marker_6f763b9811878117d30161284f1b9b39.bindPopup(popup_1c81a2195abb81b4a9c53889109d89c6)
+        ;
+
+        
+    
+    
+            circle_marker_6f763b9811878117d30161284f1b9b39.bindTooltip(
+                `<div>
+                     Civil Service Hospital of Nepal: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fb7743b46ca753fcff9cbeaad935dd7f = L.circleMarker(
+                [27.6771, 85.3016],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_1035be401e1461512fad6e53a59dddc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b622fd1a92f00b864e69b4da03c8348e = $(`<div id="html_b622fd1a92f00b864e69b4da03c8348e" style="width: 100.0%; height: 100.0%;">Vayodha Hospital<br>Location: Balkhu, Kathmandu<br>Total Resources: 10.0<br>Doctors: 10.0<br>Nurses: 0.0<br>Ventilators: 0.0<br>Monitors: 0.0</div>`)[0];
+                popup_1035be401e1461512fad6e53a59dddc6.setContent(html_b622fd1a92f00b864e69b4da03c8348e);
+            
+        
+
+        circle_marker_fb7743b46ca753fcff9cbeaad935dd7f.bindPopup(popup_1035be401e1461512fad6e53a59dddc6)
+        ;
+
+        
+    
+    
+            circle_marker_fb7743b46ca753fcff9cbeaad935dd7f.bindTooltip(
+                `<div>
+                     Vayodha Hospital: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5b7af44786fc76849b209933b27ab4fe = L.circleMarker(
+                [27.7262, 85.3334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_874bbf8ab8f464f9164520c3badb7789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0caaf98081970bace6fb9c60658f562f = $(`<div id="html_0caaf98081970bace6fb9c60658f562f" style="width: 100.0%; height: 100.0%;">Grande City Hospital<br>Location: Kanti path, Kathmandu<br>Total Resources: 10.0<br>Doctors: 0.0<br>Nurses: 0.0<br>Ventilators: 10.0<br>Monitors: 0.0</div>`)[0];
+                popup_874bbf8ab8f464f9164520c3badb7789.setContent(html_0caaf98081970bace6fb9c60658f562f);
+            
+        
+
+        circle_marker_5b7af44786fc76849b209933b27ab4fe.bindPopup(popup_874bbf8ab8f464f9164520c3badb7789)
+        ;
+
+        
+    
+    
+            circle_marker_5b7af44786fc76849b209933b27ab4fe.bindTooltip(
+                `<div>
+                     Grande City Hospital: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_23c90350b407f83614caf4c0575c27a2 = L.circleMarker(
+                [27.739, 85.3423],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b07b2c52a11a7f94f1e7197a3a2e628);
+        
+    
+        var popup_1475a8ac35d8f8045056af92d3568137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_091868fd2ed232de4a84daaa902afca9 = $(`<div id="html_091868fd2ed232de4a84daaa902afca9" style="width: 100.0%; height: 100.0%;">Teaching Hospital<br>Location: Maharajgunj, Kathmandu<br>Total Resources: 10.0<br>Doctors: 0.0<br>Nurses: 0.0<br>Ventilators: 0.0<br>Monitors: 0.0</div>`)[0];
+                popup_1475a8ac35d8f8045056af92d3568137.setContent(html_091868fd2ed232de4a84daaa902afca9);
+            
+        
+
+        circle_marker_23c90350b407f83614caf4c0575c27a2.bindPopup(popup_1475a8ac35d8f8045056af92d3568137)
+        ;
+
+        
+    
+    
+            circle_marker_23c90350b407f83614caf4c0575c27a2.bindTooltip(
+                `<div>
+                     Teaching Hospital: 10.0 resources
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
